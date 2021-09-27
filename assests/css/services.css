@@ -1,0 +1,62 @@
+.services{
+    margin: 4rem 0px;
+}
+
+.services h1{
+    color: tomato;
+    text-align: center;
+    font-family: var(--roboto);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.services .cards .card{
+    background: #333;
+    border-radius: 0;
+    box-shadow: 0 3px 10px rgba(225,225,225,0.1);
+}
+
+.services .cards .card{
+    color: #fff;
+}
+
+.services .cards .card h3{
+    color: tomato;
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media(max-width:600px){
+    .services .container{
+        padding: 0px 10px;
+    }
+
+    .services .cards .flex{
+        flex-direction: column;
+    }
+}
+
+.services .cards .card p{
+    font-family: var(--roboto);
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+
+.services .cards .card .btn{
+    background: tomato;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 0;
+    padding: 10px 13px;
+    margin-top: 15px;
+}
+
+.services .cards .card .btn a{
+    color: #fff;
+    font-family: var(--roboto);
+    font-size: 1rem;
+}

@@ -1,0 +1,61 @@
+.contact-form{
+    height: 500px;
+    background: rgba(0,0,0, 0.6) url('/assests/images/contact-background.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    padding: 4% 0px !important;
+}
+
+.contact-form h1{
+    text-align: center;
+    font-family: var(--roboto);
+    color: tomato;
+    font-size: 2rem;
+}
+
+.contact-form .grid{
+    margin-bottom: 1.5rem;
+}
+
+.contact-form .grid .form-control{
+    border: none;
+    padding: 15px 30px;
+    outline: none;
+}
+
+.contact-form .text-control{
+    width: 100%;
+    height: 300px;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+}
+
+.contact-form textarea{
+    font-family: var(--roboto);
+    font-size: 1rem;
+    color: #111;
+}
+
+
+.contact-form .grid input[type=text]{
+    font-family: var(--roboto);
+    font-size: 1rem;
+    color: #111;
+}
+
+@media(max-width: 600px){
+    .contact-form .grid{
+        grid-template-columns:1fr;
+    }
+
+    .contact-form .container{
+        padding: 0px 10px;
+    }
+
+    .contact-form .text-control{
+        height: 200px;
+    }
+}
