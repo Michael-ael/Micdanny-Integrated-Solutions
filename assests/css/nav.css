@@ -146,6 +146,11 @@ ul.top-list {
         margin-top: -17px;
     }
 
+    #navlinks ul li a.active{
+        background: #fff;
+        padding: 10px 20px;
+    }
+
 }
 
 
