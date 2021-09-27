@@ -1,0 +1,53 @@
+section.content{
+    text-align: center;
+    margin: 3rem 0px;
+}
+
+section.content .container h1{
+    font-size: 2rem;
+    color: #fff;
+    font-family: var(--roboto);
+}
+
+section.content .container h1 span{
+    color: tomato;
+}
+
+section.content .container p{
+    font-size: 1.3rem;
+    padding: 10px 0px;
+    font-family: var(--roboto);
+    color: #fff;
+    width: 600px;
+    margin: 0px auto;
+}
+
+section.content .container p a{
+    color: tomato;
+}
+
+section.content .container .scroll-down{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+section.content .container .scroll-down svg{
+    width: 20px;
+    color: #fff;
+    margin: 0px auto;
+}
+
+section.content .container .scroll-down p{
+    width: 100%;
+    margin: 0px auto;
+}
+
+@media(max-width: 600px){
+    section.content .container p{
+        width: 320px;
+    }
+
+    
+}
