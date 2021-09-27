@@ -141,6 +141,11 @@ ul.top-list {
         color: tomato;
     }
 
+    nav .navbrand .logo{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
 }
 
 
@@ -155,6 +160,13 @@ ul.top-list {
     justify-content: space-between;
     align-items: center;
 }
+
+
+nav .navbrand .logo img{
+    max-width: 150px;
+}
+
+
 
 #navlinks ul{
     display: flex;
