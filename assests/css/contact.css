@@ -1,0 +1,100 @@
+.contact{
+    margin: 3rem 0px;
+}
+
+.contact .flex{
+    justify-content: space-between;
+}
+
+.contact .container{
+    padding: 0px 10px;
+}
+
+.contact .first-content h1{
+    color: #fff;
+    font-family: var(--roboto);
+    font-size: 2rem;
+}
+
+.contact .first-content p{
+    color: #fff;
+    font-family: var(--roboto);
+    padding: 10px 0px;
+}
+
+.contact .first-content .contact-ways{
+    margin-top: 2rem;
+}
+
+.contact .first-content .contact-ways a{
+    color: tomato;
+    font-style: italic;
+    font-family: var(--roboto);
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.contact .first-content .contact-ways svg{
+    max-width: 30px;
+    color: tomato;
+}
+
+.contact .first-content .contact-ways .heading{
+    display: flex;
+}
+
+
+.contact .first-content .contact-ways .heading h1{
+    margin-left: 15px;
+}
+
+
+/* working-hours */
+
+.contact .working-hours{
+    background: #222;
+    padding: 3%;
+    color: #fff;
+    width: 70%;
+}
+
+.contact .working-hours h1{
+    font-family: var(--roboto);
+    font-size: 2rem;
+}
+
+.contact .working-hours p{
+    font-family: var(--roboto);
+}
+
+.contact .working-hours ul li{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--roboto);
+    padding: 20px 0px;
+    border-bottom: 2px solid tomato;
+}
+
+.contact .working-hours ul li span.active{
+    color: tomato;
+    font-weight: 700;
+}
+
+@media(max-width:600px){
+    .contact .flex{
+        flex-direction: column;
+    }
+
+    .contact .container{
+        padding: 0px 20px;
+    }
+
+    .contact-ways .grid{
+        grid-template-columns:1fr;
+    }
+
+    .contact .working-hours{
+        width: 100%;
+    }
+}

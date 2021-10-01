@@ -4,3 +4,12 @@
     width: 100px;
     margin: 2rem 0px;
 }
+
+.btn{
+    background: tomato;
+    padding: 10px 30px;
+    font-family: var(--roboto);
+    color: #fff;
+    text-align: center;
+    border-radius: 0%;
+}

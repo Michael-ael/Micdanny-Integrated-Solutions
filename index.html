@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <meta property="og:description" content=" Chileco Logistics is a full-service logistics company offering global coverage.
+    We provide end to end logistics services - delivering your shipment by air and sea anywhere in the world."/>
+    <link rel="shortcut icon" href="/assests/images/Logo.png" type="image/x-icon">
     <title>Micdanny Integrated Solutions</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="/assests/css/main.css">
+    <link rel="stylesheet" href="/assests/helpers/Border.css">
 </head>
 <body>
     <div class="wrapper">
@@ -34,10 +38,17 @@
                    <div id="navlinks">
                     <ul class="nav-links">
                         <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn" onclick="dropdown()">Services</a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
                         <li><a href="/components/Journey/Journey.html">Our Journey</a></li>
                         <li><a href="#">News</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="/components/Contact Us/contact.html">Contact Us</a></li>
                         <li><a href="#" class="quote">Quote</a></li>
                     </ul>
                    </div>
@@ -158,7 +169,8 @@
                 </div>  
                 
                 <textarea name="text" id="" class="text-control" cols="30" rows="10" placeholder="Send us a message..."></textarea>
-            </div> 
+                 <a href="#" class="btn"> Send </a>
+                 </div> 
             </form>
         </div>  
         </section>

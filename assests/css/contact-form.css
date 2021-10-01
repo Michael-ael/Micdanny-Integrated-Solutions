@@ -1,5 +1,5 @@
 .contact-form{
-    height: 500px;
+    height: 550px;
     background: rgba(0,0,0, 0.6) url('/assests/images/contact-background.jpg')no-repeat;
     background-position: center;
     background-size: cover;
@@ -37,6 +37,14 @@
     font-family: var(--roboto);
     font-size: 1rem;
     color: #111;
+}
+
+.contact-form .btn{
+    width: 200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
