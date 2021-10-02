@@ -199,9 +199,16 @@ nav .navbrand .logo img{
 
 .dropdown a{
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     z-index: 2;
     transition: 0.5s;
+}
+
+.dropdown a svg{
+    max-width: 20px;
+    height: 20px;
+    margin-left: 7px;
 }
 
 .dropdown .dropdown-content{
