@@ -1,0 +1,111 @@
+.private-services{
+    margin: 4rem 0px;
+}
+
+.private-services .container{
+    padding: 0px 10px;
+}
+
+.private-services .flex{
+    justify-content: space-between;
+}
+
+.private-services .left-content{
+    background: #222;
+    margin-right: 2%;
+    padding: 2% 5%;
+    height: 300px;
+}
+
+.vehicle-services .left-content{
+    background: #222;
+    padding: 2% 5%;
+    height: 100%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.private-services .left-content h1,
+.vehicle-services .left-content h1{
+    color: #fff;
+    font-family: var(--roboto);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.private-services .left-content p,
+.vehicle-services .left-content p{
+    color: #fff;
+    font-family: var(--roboto);
+    padding: 10px 0px;
+    font-size: 1rem;
+}
+
+.private-services .right-thumb{
+    background: #222;
+    height: 300px;
+    width: 100%;
+    border-bottom: 3px solid tomato;
+}
+
+.private-services .right-thumb svg{
+    width: 100%;
+    height: 100%;
+    color: tomato;
+    padding: 20%;
+}
+
+@media(max-width: 600px){
+    .private-services .flex{
+        flex-direction: column;
+    }
+
+    .private-services .left-content{
+        height: 100%;
+    }
+
+    .private-services .left-content{
+        margin-bottom: 8%;
+    }
+
+    .private-services-details .grid-3{
+        grid-template-columns:1fr;
+    }
+
+    .vehicle-services .container{
+        padding: 0px 10px;
+    }
+}
+
+.private-services-details{
+    margin: 4rem 0px;
+}
+
+.private-services-details .card{
+    background: #222;
+    border-radius: 0%;
+    border-left: 1px solid tomato;
+    color: #fff;
+}
+
+.private-services-details .card img{
+    max-width: 100%;
+}
+
+.private-services-details .card h1{
+    font-family: var(--roboto);
+    font-size: 2rem;
+}
+.private-services-details p{
+    font-family: var(--roboto);
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+
+.private-services-details #more,
+.private-services-details #more1,
+.private-services-details #more2
+{
+    display: none;
+    transition: 0.5s ease-in-out;
+}
